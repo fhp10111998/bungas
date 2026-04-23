@@ -30,3 +30,9 @@ Route::get('/master', function(){
     return view ('layout.master');
 });
 
+Route::get('new', function(){
+    return 'haii';
+});
+
+
+
